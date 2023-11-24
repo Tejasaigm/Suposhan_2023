@@ -5,7 +5,9 @@ body {
     background-position: center;
     background-size: cover;
 }
-
+@media only screen(max-width:600px){
+    body{font-size:14px;}
+}
 .img2{
     width: 50%;
     height: 15%;
