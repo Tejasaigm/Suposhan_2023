@@ -113,6 +113,19 @@ img{
 90%{
     transform: translateX(-800%);
 }
+    95%{
+      transform: translateX(-900%);
+  }
+  100%{
+      transform: translateX(-1000%);
+  }
+  
+110%{
+    transform: translateX(-1100%);
+}
+120%{
+    transform: translateX(-1200%);
+}
 
 }
 .parag{
