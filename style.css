@@ -88,44 +88,57 @@ img{
   15%{
       transform: translateX(0);
   }
-  25%{
+  20%{
       transform: translateX(-100%);
   }
-  35%{
+  25%{
+      transform: translateX(-150%);
+  }
+  30%{
       transform: translateX(-200%);
+  }
+  35%{
+      transform: translateX(-250%);
   }
   45%{
       transform: translateX(-300%);
   }
-  55%{
-      transform: translateX(-400%);
+  45%{
+      transform: translateX(-350%);
   }
-  65%{
+  
+50%{
+    transform: translateX(-400%);
+}
+55%{
+    transform: translateX(-450%);
+}
+    60%{
       transform: translateX(-500%);
   }
-  75%{
-      transform: translateX(-600%);
+  65%{
+      transform: translateX(-550%);
+  }
+  
+70%{
+    transform: translateX(-600%);
+}
+75%{
+    transform: translateX(-650%);
+}
+     80%{
+      transform: translateX(-700%);
   }
   
 85%{
-    transform: translateX(-700%);
+    transform: translateX(-750%);
 }
 90%{
     transform: translateX(-800%);
 }
-    95%{
-      transform: translateX(-900%);
-  }
-  100%{
-      transform: translateX(-1000%);
-  }
-  
-110%{
-    transform: translateX(-1100%);
-}
-120%{
-    transform: translateX(-1200%);
-}
+    
+    
+    
 
 }
 .parag{
