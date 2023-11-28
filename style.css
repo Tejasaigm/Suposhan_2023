@@ -5,19 +5,35 @@ body {
     background-position: center;
     background-size: cover;
 }
-@media only screen(max-width:600px){
-    body{font-size:14px;}
+@media all and (max-width: 600px){
+    body{font-size:14px;
+         .dot{
+    cursor: pointer;
+    height: 4px;
+    width: 4px;
+    margin: 0 1px;
+    background-color: #999999;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+             
+         }
+        }
 }
 .img2{
     width: 50%;
     height: 15%;
     margin-left: 25%;
     margin-bottom: 10px;
+    object-fit:cover;
+    object-position:contain;
 }
 .logo{
     width: 40%;
     height: 15%;
     margin-left: 30%;
+    object-fit: cover;
+    object-position: contain;
 
 }
 .line{
@@ -37,6 +53,8 @@ body {
 #image{
     position: relative;
     margin-top: 20px;
+    object-fit:cover;
+    object-position:contain;
 }
 .para {
     font-size: 20px;
@@ -168,7 +186,12 @@ body{
     margin-left: 25%;
 
   }
-
+.obj{
+    width:80%;
+    height:50%;
+    objet-fit:cover;
+    object-position: contain;
+}
   .prev,
   .next {
     cursor: pointer;
@@ -213,6 +236,7 @@ body{
     display: inline-block;
     transition: background-color 0.6s ease;
   }
+
   .active,
   .dot:hover {
     background-color: #111111;
