@@ -170,10 +170,9 @@ body{
 
   }
 .obj{
-    width:70%;
-    height:60%;
-    objet-fit:cover;
-    object-position: contain;
+    width:80%;
+    height:65%;
+    
 }
   .prev,
   .next {
